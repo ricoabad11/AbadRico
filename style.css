@@ -1,0 +1,136 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f4f7;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container styles */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Contact Info Styles */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: #34495e;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Section Content Styles */
+.section-content {
+    margin-bottom: 20px;
+}
+
+.section-content ul {
+    list-style-type: none;
+}
+
+.section-content ul li {
+    margin-bottom: 15px;
+}
+
+/* Experience and Education Item Styles */
+.experience-item, .education-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item h3, .education-item h3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.experience-item p, .education-item p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+}
+
+.experience-item span, .education-item span {
+    font-weight: bold;
+    color: #3498db;
+}
+
+.experience-item ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+/* Skills List Styles */
+.skills-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.skills-list li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
